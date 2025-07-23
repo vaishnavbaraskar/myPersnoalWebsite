@@ -1,0 +1,142 @@
+colorScheme = "marvel"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = false
+replyByEmail = false
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+fingerprintAlgorithm = "sha512"
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+smartTOCHideUnfocusedChildren = "Enable"
+defaultBackgroundImage = "/img/background.jpg"
+highlightCurrentMenuArea = "Enable"
+
+[header]
+layout = "fixed"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"
+showRecent = true
+showRecentItems = 18
+showMoreLink = true
+showMoreLinkDest = '/BugBounty'
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+
+[article]
+showDate = "Show"
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = "Show"
+showHero = "Show"
+layoutBackgroundBlur = ""
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = "Hide"
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = "Show"
+invertPagination = false
+showReadingTime = "Show"
+showTableOfContents = "showTableOfContents"
+showTaxonomies = "hide"
+showCategoryOnly = false
+showAuthorsBadges = false
+showWordCount = true
+showZenMode = false
+heroStyle = "thumbAndBackground"
+showRelatedContent = "showRelatedContent"
+relatedContentLimit = ""
+sharingLinks = [ "linkedin", "twitter", "whatsapp", "telegram", "pinterest", "reddit", "facebook", "email" ]
+
+[list]
+showHero = "Hide"
+layoutBackgroundBlur = false
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = "hide"
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = ""
+showCards = "showCards"
+orderByWeight = false
+groupByYear = false
+cardView = "cardView"
+cardViewScreenWidth = false
+constrainItemsWidth = "constrainItemsWidth"
+heroStyle = "thumbAndBackground"
+
+[sitemap]
+excludedKinds = [ ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+  #apiKey = "AIzaSyAN9vJzbGcqXi3fCiakI8rCVV7-S6T8n4s"
+  #authDomain = "homepage-a0c38.firebaseapp.com"
+  #projectId = "homepage-a0c38"
+  #storageBucket = "homepage-a0c38.appspot.com"
+  #messagingSenderId = "722874298820"
+  #appId = "1:722874298820:web:b5c0e707586eba68c43491"
+  #measurementId = "G-H8CSEYZFG4"
+
+[buymeacoffee]
+identifier = "vaishnavbaraskar"
+globalWidget = true
+globalWidgetMessage = ""
+globalWidgetColor = "#FFDD00"
+globalWidgetPosition = "Right"
+
+[fathomAnalytics]
+# site = "ABC12345"
+# domain = "llama.yoursite.com"
+
+[umamiAnalytics]
+# Add config if needed
+
+[selineAnalytics]
+# Add config if needed
+
+[verification]
+# google = ""
+# bing = ""
+# pinterest = ""
+# yandex = ""
+
+[rssnext]
+# Add config if needed
+
+[advertisement]
+# Add config if needed
