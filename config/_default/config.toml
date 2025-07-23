@@ -37,6 +37,8 @@ googleAnalytics = "G-R94R4YKFEC"
     #{ music = "/music" },
   ]
 
+[params.article]
+  relatedContentLimit = 3
 
 [imaging]
   anchor = 'Center'
@@ -60,29 +62,28 @@ googleAnalytics = "G-R94R4YKFEC"
   includeNewer = true
   toLower = true
 
-    [[related.indices]]
-        name = "tags"
-        weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 100
 
-    [[related.indices]]
-        name = "categories"
-        weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 100
 
-    [[related.indices]]
-        name = "series"
-        weight = 50
+  [[related.indices]]
+    name = "series"
+    weight = 50
 
-    [[related.indices]]
-        name = "authors"
-        weight = 10
+  [[related.indices]]
+    name = "authors"
+    weight = 10
 
-    [[related.indices]]
-        name = "date"
-        weight = 0
+  [[related.indices]]
+    name = "date"
+    weight = 0
 
-    [[related.indices]]
-      applyFilter = true
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
-
+  [[related.indices]]
+    applyFilter = true
+    name = 'fragmentrefs'
+    type = 'fragments'
+    weight = 10
